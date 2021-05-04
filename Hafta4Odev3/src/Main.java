@@ -20,7 +20,7 @@ public class Main {
 		Customer customer1 = new Customer();
 		customer1.setId(1);
 		customer1.setFirstName("Yunus");
-		customer1.setLastName("Özkýlýnç");
+		customer1.setLastName("Kaya");
 		customer1.setDateOfBirthYear(1992);
 		customer1.setNationalityId("15874361845");
 
@@ -60,7 +60,7 @@ public class Main {
 		
 		Campaign campaign2 = new Campaign();
 		campaign2.setId(1);
-		campaign2.setName("Yüzde 10 indirim");
+		campaign2.setName("Yï¿½zde 10 indirim");
 		campaign2.setDiscountAmount(10);
 		
 		ICampingService campingService = new CampingManager();
